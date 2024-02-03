@@ -8,7 +8,6 @@ TBD
 This application is built with the environment bellow;
 
 - OpenJDK 17
-- Spring boot 3.1.1
 - IntelliJ IDEA 2023.1.2
 
 Note that this module is needed the gradle.properties on the root directory.
