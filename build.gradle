@@ -49,7 +49,7 @@ publishing {
 	repositories {
 		maven {
 			name = 'github-publish'
-			url = uri('https://maven.pkg.github.com/zoeque/mail-agent-java')
+			url = uri('https://maven.pkg.github.com/zoeque/xmlParser')
 			credentials {
 				username = project.hasProperty("GITHUB_USERNAME") ? GITHUB_USERNAME : ''
 				password = project.hasProperty("GITHUB_TOKEN") ? GITHUB_TOKEN : ''
