@@ -2,7 +2,7 @@
 ## Overview
 
 ## Usage
-If you want get the value "foo" from following XML file;  
+If you want get the value "bar" from following XML file;  
 ```xml
 <test>
     <property key = "test1" value = "foo" />
@@ -15,6 +15,7 @@ use `XmlFileParseService#parse()`with four arguments, that identify the value to
 ```java
 XmlFileParseService service = new XmlFileParseService(new FileReadAdapter(new File("src/test/resources/test.xml")));
 // tag name, key attribute name, key attribute value, value attribute name
+// get "bar" as the value
 String value = service.parse("property", "key", "test2", "value").get();
 ```
 
